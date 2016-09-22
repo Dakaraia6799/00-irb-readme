@@ -37,7 +37,7 @@ IRB allows you to execute ruby in the terminal and you're going to get comfortab
   * `"6".to_i`
   * `puts "hello world"`
 
-You can even do multiple lines of code (press 'return' after each line):
+You can even do multiple lines of code (Do **NOT** copy/paste.  Type each line, and press 'return' after each line):
 ```ruby
 5.times do
     puts "I <3 ruby"
