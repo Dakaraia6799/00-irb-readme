@@ -9,7 +9,7 @@
 
 <iframe width="960" height="720" src="https://www.youtube.com/embed/WWh1uxqQI48?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-[MP4](http://learn-co-videos.s3.amazonaws.com/ruby/intro-to-irb.mp4)
+[MP4](http://learn-co-videos.s3.amazonaws.com/ruby/intro-to-irb.mp4) (optional)
 
 
 
