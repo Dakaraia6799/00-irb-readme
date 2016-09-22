@@ -43,7 +43,7 @@ You can even do multiple lines of code (Do **NOT** copy/paste.  Type each line, 
     puts "I <3 ruby"
 end
 ```
-4. To leave irb, type the `exit` command - this will get you back to your command line.  Pressing `ctrl+D` should also interrupt `irb` and return you back to the command line.
+To leave irb, type the `exit` command - this will get you back to your command line.  Pressing `ctrl+D` should also interrupt `irb` and return you back to the command line.
 
 ## Resource
 
