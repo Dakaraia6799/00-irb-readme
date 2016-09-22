@@ -15,7 +15,7 @@
 
 ## What is IRB?
 
-IRB stands for "Interactive Ruby." It's a Ruby shell or REPL. REPL stands for read–eval–print loop. It is a simple, interactive computer programming environment that takes user inputs (such as, in our case, snippets of Ruby code), evaluates them, and returns the result to the user. IRB is run by your computer's terminal. You can think of it as your Ruby playground or execution environment. You can open it up, insert code and execute it to see that code's return value.
+IRB stands for "Interactive Ruby." It's a Ruby shell or REPL. REPL stands for read–eval–print loop. It is a simple, interactive computer programming environment that **r**eads user inputs (such as, in our case, snippets of Ruby code), **e**valuates them and **p**rints the result to the user, and then **l**oops so that you can enter more code. IRB is run by your computer's terminal. You can think of it as your Ruby playground or execution environment. You can open it up, insert code and execute it to see that code's return value.
 
 ## What *isn't* IRB?
 
@@ -28,13 +28,27 @@ IRB allows you to execute ruby in the terminal and you're going to get comfortab
 ## Instructions
 
 1. Open up your terminal.
-2. Type `irb` and hit `return`
+2. Type `irb` and hit `return`.
 3. Now that you've started IRB, type the commands below to see how it works! Type each of the following lines into the irb shell and press enter.
 
   * `Time.now`
   * `255 / 5`
   * `9 ** 2`
+  * `"6".to_i`
   * `puts "hello world"`
-4. To leave irb, type the `exit` command - this will get you back to your command line.
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/irb-readme' title='Introduction to IRB'>Introduction to IRB</a> on Learn.co and start learning to code for free.</p>
+You can even do multiple lines of code (press 'return' after each line):
+```ruby
+5.times do
+    puts "I <3 ruby"
+end
+```
+4. To leave irb, type the `exit` command - this will get you back to your command line.  Pressing `ctrl+D` should also interrupt `irb` and return you back to the command line.
+
+## Resource
+
+When you don't have a terminal handy, **[repl.it/languages/ruby](http://repl.it/languages/ruby)** is another great resource.  No need to type `irb`.  Just start repl'ing.
+
+You can even write a program on the left, run it, and repl on the right.  This is useful for things like checking values of variables.
+
+Test it out!
